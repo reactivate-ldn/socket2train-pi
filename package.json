@@ -1,0 +1,16 @@
+{
+  "name": "socket2train-pi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "rpio": "^0.9.16",
+    "socket.io-client": "^1.7.3"
+  }
+}
