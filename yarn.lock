@@ -24,7 +24,7 @@ better-assert@~1.0.0:
   dependencies:
     callsite "1.0.0"
 
-bindings@*:
+bindings@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
 
@@ -126,9 +126,9 @@ ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
 
-nan@*:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-2.5.1.tgz#d5b01691253326a97a2bbee9e61c55d8d60351e2"
+nan@~2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
 
 object-component@0.0.3:
   version "0.0.3"
@@ -156,12 +156,12 @@ parseuri@0.0.5:
   dependencies:
     better-assert "~1.0.0"
 
-rpio@^0.9.16:
-  version "0.9.16"
-  resolved "https://registry.yarnpkg.com/rpio/-/rpio-0.9.16.tgz#dc4750db099c7e0e6e6505aa86297f4a23aaf5d6"
+pigpio@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/pigpio/-/pigpio-0.4.0.tgz#11fbcb4517980ca1b8252ebe21f7db6f7ea655b9"
   dependencies:
-    bindings "*"
-    nan "*"
+    bindings "~1.2.1"
+    nan "~2.4.0"
 
 socket.io-client@^1.7.3:
   version "1.7.3"
